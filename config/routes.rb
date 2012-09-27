@@ -1,4 +1,6 @@
 Interior::Application.routes.draw do
+  get "categories/new"
+  post "categories/create"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -8,7 +8,7 @@ development:
   database: interior 
   pool: 5
   username: root
-  password: 
+  password: solovei
   timeout: 5000
 
 # Warning: The database defined as "test" will be erased and
@@ -19,7 +19,7 @@ test:
   database: interior2 
   pool: 5
   username: root
-  password: 
+  password: solovei
   timeout: 5000
 
 production:
@@ -27,5 +27,5 @@ production:
   database: interior2 
   pool: 5
   username: root
-  password: 
+  password: solovei
   timeout: 5000
