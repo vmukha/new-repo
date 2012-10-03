@@ -4,7 +4,13 @@ class CategoriesController < ApplicationController
   end
 
   def create
-    render :text => params[:category].inspect
+    @category = Category.new(params[:category])
+    @category.save
+    redirect_to :action => :show, :id => @category.id
   end
+
+  def show
+  @category = Category.find(params[:id])
+end
 
 end
